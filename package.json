@@ -1,0 +1,25 @@
+{
+  "name": "chat_nodekurssi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Perttu",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.8",
+    "socket.io": "^1.4.8",
+    "nodemon": "^1.9.1",
+    "fs": "*",
+    "socketio-jwt": "*",
+    "bcrypt-nodejs": "*",
+    "jsonwebtoken": "*",
+    "socketio-auth": "*"
+  }
+}
